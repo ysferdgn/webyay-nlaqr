@@ -1,5 +1,4 @@
-# HTML dosyasını oluşturma
-html_content = """
+
 <!DOCTYPE html>
 <html lang="tr">
 <head>
@@ -96,34 +95,3 @@ html_content = """
     </div>
 </body>
 </html>
-"""
-
-# HTML dosyasını kaydetme
-with open("index.html", "w", encoding="utf-8") as file:
-    file.write(html_content)
-
-import webbrowser
-import os
-
-# HTML dosyasının tam yolu
-file_path = os.path.abspath("index.html")
-
-# Tarayıcıda aç
-webbrowser.open(f"file://{file_path}")
-
-
-
-# web de yayınla
-# Basit bir HTTP sunucusu oluşturma
-import http.server
-import socketserver
-
-PORT = 8000
-
-Handler = http.server.SimpleHTTPRequestHandler
-
-with socketserver.TCPServer(("", PORT), Handler) as httpd:
-    print(f"Serving at http://localhost:{PORT}")
-    httpd.serve_forever()
-
-
