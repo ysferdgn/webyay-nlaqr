@@ -2,7 +2,7 @@
 import qrcode
 
 # QR koduna dönüştürülecek URL
-url = "http://localhost:8000/baglantilarim.html"
+url = "https://ysferdgn.github.io/webyay-nlaqr/"
 
 
 

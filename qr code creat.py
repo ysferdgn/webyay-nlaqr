@@ -80,7 +80,7 @@ html_content = """
         <h1>Bağlantılarıma Ulaşın</h1>
 
         <div class="link-container">
-            <a href="https://www.instagram.com/yusufferdogan/">
+            <a href="https://https://www.instagram.com/yusufferdogan/">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="icon">
                 Instagram Profilim
             </a>
